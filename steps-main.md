@@ -229,7 +229,6 @@ nano .env
 - replace the project name with a name of your choice
 - start the nextcloud containers
 
-
 topics
 - docker .env files
 - passwords
