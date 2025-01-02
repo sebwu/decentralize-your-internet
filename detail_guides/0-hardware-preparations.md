@@ -1,6 +1,7 @@
 # Step 0 - Hardware and Preparations
 
 - get the target machine: e.g. Dell Latitude E6230
+  - For our current running real setup, see [0_1 Our Hardware](./0_1-our-hardware.md)
 - charger for said notebook
 - admin machine from where you work normally
 - a USB Stick (8GB or more)
