@@ -1,5 +1,7 @@
 pipeline {
     agent any
+    
+    // this pipeline updates the Nextcloud container
 
     stages {
 

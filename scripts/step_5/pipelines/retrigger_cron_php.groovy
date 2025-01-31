@@ -1,6 +1,9 @@
 pipeline {
     agent any
-
+    
+    // this pipeline executes the cron.php script in the Nextcloud container
+    // to trigger the nextcloud event system
+    
     stages {
 
         stage('Docker Compose Operations') {
