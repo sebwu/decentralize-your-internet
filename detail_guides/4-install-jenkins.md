@@ -41,4 +41,5 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 # Post Installation
 
 - For details on the Jenkins setup, check: [4.1-jenkins_nodes.md](4.1-jenkins_nodes.md)
- 
+ - For details on the setup of pipelines, check [4.2-add_jenkins_pipelines.md](4.2-add_jenkins_pipelines.md)
+  
