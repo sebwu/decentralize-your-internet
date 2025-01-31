@@ -54,7 +54,7 @@ git clone https://github.com/hackerbande-nbg/decentralize-your-internet.git
     ```
 
 ## Configure nextcloud
-- On your admin machine, open a browser and browse to http://<target machine IP>:8092
+- On your admin machine, open a browser and browse to http://\<target machine IP\>:8092
   - Nextcloud Setup Screen should show up:  
      ![Nextcloud Setup Screen](../images/nextcloud_setup.png)
 - Choose an admin login and password of your choice
