@@ -1,6 +1,6 @@
 # Introduction
 This Repo has begun as companion Repo for the 38c3 talk ["Decentralize your Internet with Self Hosting"](https://media.ccc.de/v/38c3-decentralize-your-internet-with-self-hosting).  
-It aims to offer a step-by-step guide, how to setup a linux server, including hosting and automation infastructure (docker, Jenkins).  
+It aims to offer a step-by-step guide, how to setup a linux server, including hosting and automation infrastructure (docker, Jenkins).  
 We will show how to create your own domain and host your own nextcloud as self hosted online file sharing and collaboration platform.  
 Of course, this is only the beginning. Starting with this setup, you are ready to self host a very diverse variety of platforms and tools.
 
