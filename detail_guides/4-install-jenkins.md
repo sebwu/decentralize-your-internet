@@ -36,4 +36,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
   - email: none@cloudy.com (jenkins can send mails if things go south)
 - Jenkins URL: Keep Default
 - Instance Configuration: Save and Finish
-- Start using Jenkins
+- Start using Jenkins 🌈
+
+# Post Installation
+
+- For details on the Jenkins setup, check: [4.1-jenkins_nodes.md](4.1-jenkins_nodes.md)
+ 
