@@ -1,3 +1,7 @@
+// Description: This pipeline will update the server and reboot it
+//
+// Recommendation: Run once a night
+
 pipeline {
     agent any
 
