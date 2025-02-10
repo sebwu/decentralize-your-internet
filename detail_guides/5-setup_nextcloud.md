@@ -9,12 +9,12 @@ git clone https://github.com/hackerbande-nbg/decentralize-your-internet.git
 - do some prep work, go to the nextcloud folder, copy ```.env.example``` to ```.env```. This is all done for you by executing:  
   ```bash
   cd ~
-  cd scripts/step_5
+  cd decentralize-your-internet/scripts/step_5
   prep_nextcloud_env.sh
   ```  
   Edit the newly created ```.env``` for example with nano:
   ```bash
-  nano ~/decentralize-your-internet/infra/nextcloud/.env
+  nano ~/nextcloud_infra/.env
   ```
   
   - replace the password (POSTGRES_PW) with a password of your choice
@@ -23,7 +23,7 @@ git clone https://github.com/hackerbande-nbg/decentralize-your-internet.git
 
 - start the nextcloud containers:
   ```bash
-  cd ~/decentralize-your-internet/infra/nextcloud
+  cd ~/nextcloud_infra/
   docker compose up -d
   ```
   <details><summary>Explanation</summary>
