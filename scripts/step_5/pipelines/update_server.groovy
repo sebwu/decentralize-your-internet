@@ -1,17 +1,6 @@
 pipeline {
-    agent {
-       label "hamster"
-       // this pipeline updates the server
-       // reboot is not always necessary
-       // however for a family setup, neither is downtimeless patching ;-)
-       // take note that this here requires credentials managed in jenkins 
-       // check detail_guides/4.2-add_jenkins_pipelines.md for more information
-       // here you need the sudo credentials
-       // the required credentials are of the type "secret text"
-    }
-    options {
-        lock resource: 'app'
-    }
+    agent any
+
     stages {
         stage('update') {
             steps {
