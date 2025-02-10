@@ -86,5 +86,6 @@ Here is one way to do it.
     ![trusted domains before change](../images/config_php_domain_after.png)
 - as we are already here, please also add the following line to config, it is required to get an A+ in security scan:  
 ``` 'overwriteprotocol' => 'https',```
+  - Otherwise, Nextcloud Security Scan might show problem "__Host-Prefix"
 
 Please note: If NGINX Proxy Manager is not yet fully configured, your external domain will not yet point to the nextcloud. So this setting will effectively lock you out of your nextcloud for now. Which is ok, but if you want to log in during this time, consider just adding both adresses, internal IP and external domain to the array of trusted domains.
