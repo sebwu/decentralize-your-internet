@@ -77,7 +77,8 @@ Here is one way to do it.
 - Identify your nextcloud config volume:  
     ```docker volume ls```
 - spin up a temporary docker container, which has nano, mount the config volume and edit it:  
-    ```docker run --rm -it -v 38c3.fun_nextcloud_config:/mnt/config ubuntu bash -c "apt-get update && apt-get install -y nano && nano /mnt/config/config.php"```
+    ```docker run --rm -it -v [nextcloud config volume name]:/mnt/config ubuntu bash -c "apt-get update && apt-get install -y nano && nano /mnt/config/config.php"```
+    - Replace [nextcloud config volume name] with the name of your config volume. To find the correct one, list all volumes with ```bash    docker volume ls    ```
 - in nano, change the item 0 of array "trusted domains" to your real domain:  
     - Before:  
     ![trusted domains before change](../images/config_php_domain_before.png)
