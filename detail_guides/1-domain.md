@@ -16,6 +16,7 @@ Choose new credentials (use none of those created before):
 ![INWX DynDNS creation](../images/inwx_dyndns.png)
 
 ### Configure DynDNS in your Router
+Please see below example for a Fritzbox. If your router does not support DynDNS, it is also possible to have a script running regularly that updates the DynDNS provider upon IP Change. 
 #### FritzBox
 For FritzBox, log into your [FritzBox management UI](http://fritz.box) and go to 'Internet' -> 'Permit Access' -> ['DynDNS'](http://fritz.box/#/access/dyndns)
 
