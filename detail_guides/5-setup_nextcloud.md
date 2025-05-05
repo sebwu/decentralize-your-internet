@@ -28,7 +28,7 @@ git clone https://github.com/hackerbande-nbg/decentralize-your-internet.git
   ```bash
   cd ~/nextcloud_infra/
   source .env
-  docker compose -d --project-name $PROJECT up
+  docker compose --project-name $PROJECT up -d
   ```
   <details><summary>Explanation</summary>
   This command will evaluate a compose.yml lying in the current working directory. It will also automatically load a .env file in the current working directory, thus replacing required environment variables. 
