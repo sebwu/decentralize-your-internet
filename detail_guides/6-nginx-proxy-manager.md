@@ -20,7 +20,7 @@ Result should look something like this:
 ## Initial Login
 On your admin machine, open a browser and browse to http://<target machine IP>:81 
 When logging in the first time, you need to use the following predefined credentials:
-- admin@axample.com
+- admin@example.com
 - changeme
 
 After logging in, system will prompt you to setup a real admin account and disable the default one.
